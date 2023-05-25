@@ -31,10 +31,11 @@ img {
 }
 
 .content {
-  /* Empujando el footer */
-  flex-grow: 1;
   margin-bottom: 2rem;
   padding: 10px 10px 0;
+
+  /* Empujando el footer */
+  flex-grow: 1;
 }
 
 .footer {
