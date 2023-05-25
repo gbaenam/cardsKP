@@ -6,3 +6,41 @@ img {
   width: 100%;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 60px 0;
+  min-width: 100vh;
+
+  justify-content: center;
+
+  background-color: lightblue;
+}
+
+.card {
+  /* flex: 50%; */
+  flex-basis: 280px;
+  flex-grow: 1;
+  /* margin: 10px; */
+  border: 5px solid black;
+  max-width: 450px;
+
+  /* Empujando el footer */
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  /* Empujando el footer */
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.footer {
+  background-color: gray;
+  padding: 10px;
+}
